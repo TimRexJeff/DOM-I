@@ -40,3 +40,55 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+
+//HEADER
+const navTag = document.getElementsByTagName('nav');
+
+  const ATags = document.querySelectorAll('a');
+    ATags[0].className('.nav-item-1');
+    ATags[0].textContent('Services');
+    ATags[1].className('.nav-item-2');
+    ATags[1].textContent('Product');
+    ATags[2].className('.nav-item-3');
+    ATags[2].textContent('Vision');
+    ATags[3].className('.nav-item-4');
+    ATags[3].textContent('Features');
+    ATags[4].className('.nav-item-5');
+    ATags[4].textContent('About');
+    ATags[5].className('.nav-item-6');
+    ATags[5].textContent('Contact');
+
+  const logoImg = document.getElementById('logo-img');
+    logoImg.src = 'C:\Users\Tim\Lambda WebPT8\2. Web Applications I\1. Applied JavaScript\DOM-I\img\logo.png'
+
+
+//CTA SECTION
+const ctaText = document.getElementsByClassName('cta-text');
+
+  const ctaH1 = document.ctaText.getElementsByTagName('h1');
+    ctaText.ctaH1.textContext('DOM Is Awesome');
+
+  const ctaButton = document.ctaText.getElementsByTagName('button');
+    ctaText.ctaButton.textContent('Get Started');
+
+  const ctaImg = document.getElementById('cta-img');
+  ctaImg.src = 'C:\Users\Tim\Lambda WebPT8\2. Web Applications I\1. Applied JavaScript\DOM-I\img\header-img.png'
+
+
+//TOP CONTENT SECTION
+
+
+
+//BOTTOM CONTENT SECTION
+
+
+
+//CONTACT SECTION
+
+
+
+//FOOTER
+
+
+
